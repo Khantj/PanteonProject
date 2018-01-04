@@ -7,8 +7,10 @@ public class MouseController : MonoBehaviour
 
 	Vector3 lastFramePosition;
 	Vector3 currFramePosition;
-
 	Vector3 dragStartPosition;
+	
+	//SourceTree ve Git denemesi icin yazilmis bir comment olmakla beraber, bunu becermem halinde isimi cok kolaylastiracaktir bu mevzu. Saygilar.
+	
 	private List<GameObject> dragPreviewGameObjects;
 
 	void Start()
